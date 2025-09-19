@@ -8,5 +8,5 @@ import "fmt"
 // Função simples para demonstrar organização do código
 func SayHello() {
 	// Imprime uma mensagem no console
-	fmt.Println("Olá, mundo! 🇺🇿! 👋")
+	fmt.Println("Mensagem personalizada.")
 }
