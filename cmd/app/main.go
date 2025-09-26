@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/seu-usuario/meu-projeto-go/internal/hello"
 	"github.com/seu-usuario/meu-projeto-go/internal/fibonacci"
+	"github.com/seu-usuario/meu-projeto-go/internal/hello"
 )
 
 // Função principal do programa
@@ -22,4 +22,13 @@ func main() {
 	fmt.Fscan(os.Stdin, &valorEntrada)
 	result := fibonacci.Fibonacci(valorEntrada)
 	fmt.Printf("O resultado do Fibonacci(%v) é: %v\n", valorEntrada, result)
+
+	nome := "Lucas"
+
+	switch nome {
+	case "Lucas":
+		fmt.Println("\nLucas Felipe de Araújo Ferreira")
+	default:
+		fmt.Println("Nome não encontrado!")
+	}
 }
