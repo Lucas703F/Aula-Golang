@@ -31,4 +31,13 @@ func main() {
 	default:
 		fmt.Println("Nome não encontrado!")
 	}
+
+	// Função anônima atribuída a uma variável
+	funcaoAnonima := func() {
+		fmt.Println("Olá! Esta é uma função anônima.")
+	}
+
+	// Executando a função anônima
+	funcaoAnonima()
+
 }
